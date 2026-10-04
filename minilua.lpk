@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="miniLua"/>
+    <Type Value="RunTimeOnly"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="miniLua for FPC/Delphi"/>
+    <Files>
+      <Item>
+        <Filename Value="LuaAPI.pas"/>
+        <UnitName Value="LuaAPI"/>
+      </Item>
+      <Item>
+        <Filename Value="LuaClasses.pas"/>
+        <UnitName Value="LuaClasses"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="MiniLib"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>

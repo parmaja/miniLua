@@ -22,8 +22,7 @@ interface
 
 uses
   Classes, SysUtils, Rtti, SyncObjs,
-  LuaAPI,
-  mnLogs;
+  LuaAPI;
 
 type
   { Re-exported Lua types so callers can use LuaClasses without depending on LuaAPI directly }
