@@ -28,8 +28,7 @@ package minilua;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl,
-  MiniCommonsLib;
+  rtl;
 
 contains
   LuaAPI in 'LuaAPI.pas',

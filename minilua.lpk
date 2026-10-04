@@ -11,7 +11,7 @@
         <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
       </SearchPaths>
     </CompilerOptions>
-    <Description Value="miniLua for FPC/Delphi"/>
+    <Description Value="miniLua - Lua 5.5 for Pascal (FPC/Delphi)"/>
     <Files>
       <Item>
         <Filename Value="LuaAPI.pas"/>
@@ -24,7 +24,7 @@
     </Files>
     <RequiredPkgs>
       <Item>
-        <PackageName Value="MiniLib"/>
+        <PackageName Value="FCL"/>
       </Item>
     </RequiredPkgs>
     <UsageOptions>
